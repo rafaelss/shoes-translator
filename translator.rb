@@ -7,7 +7,7 @@ require 'cgi'
 require 'rest_client'
 require 'json'
 
-Shoes.app :width => 260, :height => 270, :resizable => false, :title => 'Google Translator' do
+Shoes.app :width => 260, :height => 270, :resizable => false, :title => 'Shoes Translator' do
   stack :margin => 10 do
     @word = edit_line('', :width => 225)
   end
